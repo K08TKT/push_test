@@ -27,12 +27,11 @@ SQL
 
 ### 使用したデータベース
 
-h2 datebase
+MySQL workbench8.0
 
 
 
 ### 今後追加していきたい機能
 
-mySQL使ったデータベース管理
 
 REST機能など
