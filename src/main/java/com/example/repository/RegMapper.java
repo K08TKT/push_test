@@ -1,5 +1,6 @@
 package com.example.repository;
 
+import java.util.Date;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
@@ -32,7 +33,7 @@ public interface RegMapper {
 			@Param("resolution")String resolution,
 			@Param("lcd")double lcd,
 			@Param("manufacturers")String manufacturers,
-			@Param("release")String release,
+			@Param("release_date")Date release_date,
 			@Param("description")String description);
 
 	//削除

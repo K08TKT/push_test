@@ -36,7 +36,6 @@ public class PcDetailForm {
 	@DateTimeFormat(pattern="yyyy-MM-dd")
 	private Date release_date;  //発売日
 
-	private String release;
 
 	//--------------------------
 	private String eth;

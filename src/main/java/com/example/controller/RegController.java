@@ -1,6 +1,5 @@
 package com.example.controller;
 
-import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Map;
 
@@ -78,15 +77,15 @@ public class RegController {
 		 Reg reg=modelMapper.map(form, Reg.class);
 		    String strWf = String.join(",", form.getWifi());
 		    String strOs = String.join(",", form.getOs_radio());
-		    String str =new SimpleDateFormat("yyy-MM-dd hh:mm:ss").format(form.getRelease_date());
+		    //String str =new SimpleDateFormat("yyy-MM-dd hh:mm:ss").format(form.getRelease_date());
 
 
 		    form.setOs(strOs);
 			reg.setOs(strOs);
 		    form.setStrWifi(strWf);
 		    reg.setStrWifi(strWf);
-		    form.setRelease(str);
-		    reg.setRelease(str);
+		    //form.setRelease(str);
+		    //reg.setRelease(str);
 
 
 		    pcService.RegPc(reg);

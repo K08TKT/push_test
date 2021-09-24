@@ -47,7 +47,6 @@ public class RegForm {
 	private String os;  //String型に変換したos_radio
 
 
-	//private int version;
 
 	private String byt;  //容量
 	public String getByt() {
@@ -77,8 +76,6 @@ public class RegForm {
 	@NotNull
 	private Date release_date;  //発売日
 
-
-	private String release;  //Stringに変換したrelease_date
 
 	//--------------------------
 

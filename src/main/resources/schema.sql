@@ -3,7 +3,6 @@ CREATE TABLE IF NOT EXISTS employee(
  employee_name VARCHAR(50),
  age INT
 );
-
 CREATE TABLE IF NOT EXISTS m_pc(
  name VARCHAR(45)
  ,os VARCHAR(45)
@@ -20,6 +19,6 @@ CREATE TABLE IF NOT EXISTS m_pc(
  ,resolution VARCHAR(45)
  ,lcd DECIMAL(10.0)
  ,manufacturers VARCHAR(45)
- ,release VARCHAR(45)
+ ,release_date DATE
  ,description VARCHAR(100)
 );

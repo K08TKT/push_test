@@ -46,7 +46,7 @@
       ,resolution
       ,lcd
       ,manufacturers
-      ,release
+      ,release_date
       ,description
     )
     values(
@@ -65,11 +65,11 @@
       ,#{resolution}
       ,#{lcd}
       ,#{manufacturers}
-      ,#{release}
+      ,#{release_date}
       ,#{description}
+
     )
     </if>
-<!-- 1件登録 -->
   </insert>
   <select id="findMany" resultType="Reg">
 
@@ -114,7 +114,7 @@
 
     update
 
-      m_pc
+      sys.m_pc
 
     set
 
@@ -132,7 +132,7 @@
      ,resolution =#{resolution}
      ,lcd = #{lcd}
      ,manufacturers = #{manufacturers}
-     ,release = #{release}
+     ,release_date = #{release_date}
      ,description = #{description}
 
      where

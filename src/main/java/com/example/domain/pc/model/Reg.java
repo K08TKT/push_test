@@ -34,8 +34,6 @@ public class Reg {
 	private String os;
 
 
-	//private int version;
-
 	private String byt;  //容量
 	public String getByt() {
 	return byt;
@@ -53,7 +51,6 @@ public class Reg {
 	@DateTimeFormat(pattern="yyyy-MM-dd")
 	private Date release_date;  //発売日
 
-	private String release;
 
 	//--------------------------
 	private String eth;

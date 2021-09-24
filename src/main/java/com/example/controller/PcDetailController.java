@@ -59,7 +59,7 @@ public class PcDetailController {
 				form.getResolution(),
 				form.getLcd(),
 				form.getManufacturers(),
-				form.getRelease(),
+				form.getRelease_date(),
 				form.getDescription());
 
 

@@ -1,5 +1,6 @@
 package com.example.domain.pc.service.impl;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,7 +51,7 @@ public class PcServiceImpl implements PcService{
 			String resolution,
 			double lcd,
 			String manufacturers,
-			String release,
+			Date release_date,
 			String description) {
 		mapper.updateOne( name,
 				os
@@ -67,7 +68,7 @@ public class PcServiceImpl implements PcService{
 				, resolution
 				, lcd
 				, manufacturers
-				, release
+				, release_date
 				, description);
 
 	}

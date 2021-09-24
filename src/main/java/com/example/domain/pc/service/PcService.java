@@ -1,5 +1,6 @@
 package com.example.domain.pc.service;
 
+import java.util.Date;
 import java.util.List;
 
 import com.example.domain.pc.model.Reg;
@@ -26,7 +27,7 @@ public interface PcService {
 			String resolution,
 			double lcd,
 			String manufacturers,
-			String release,
+			Date release_date,
 			String description);
 
 	public void deletePcOne(String name);

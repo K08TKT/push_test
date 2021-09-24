@@ -3,14 +3,14 @@
  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
  layout:decorate="~{layout/layout}">
  <head>
-   <title>PC詳細</title>
+   <title>PCスペック詳細</title>
 
    <link rel="stylesheet" th:fref="@{css/pc/list.css}">
  </head>
  <body>
    <div layout:fragment="content">
      <div class="header bordr-bottom">
-       <h1 class="h2">PC詳細</h1>
+       <h1 class="h2">PCスペック詳細</h1>
      </div>
      <form id="pc-detail-form" method="post" th:action="@{/pc/detail}"
       class="form-reg" th:object="${pcDetailForm}">
@@ -76,7 +76,7 @@
             </tr>
             <tr>
               <th>発売日</th>
-              <td><input type="text" class="form-control" th:field="*{release}">
+              <td><input type="text" class="form-control" th:field="*{release_date}">
              </td>
             </tr>
             <tr>
